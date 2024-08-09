@@ -41,7 +41,7 @@ function App() {
     formData.append('clothing', clothingFile);
 
     try {
-      const response = await axios.post('http://853f-34-16-152-134.ngrok-free.app/submit-prompt', formData, {
+      const response = await axios.post('http://9185-34-16-152-134.ngrok-free.app/submit-prompt', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
